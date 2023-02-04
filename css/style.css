@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Righteous&display=swap');
+* {
+    font-family: 'Righteous', "cursive";
+    font-family: 'Poppins', sans-serif;
+  }
+a{
+    text-decoration: none;
+}
+
+/* Common CSS End  */
+
+header{
+    background-image: url(../images/banner-bg.png);
+    background-position: bottom center;
+    background-size: cover;
+    padding-bottom: 250px;
+    
+}
+.navbar-toggler{
+    border: 1px solid #fff;
+}
+
+.menubar ul li a{
+    font-weight: 500;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.menubar ul li a:hover{
+    color: #fff;
+    background-color: blue;
+}
+
+.bunner-head{
+    font-weight: bold;
+    font-size: 80px;
+    font-family: "Righteous";
+}
